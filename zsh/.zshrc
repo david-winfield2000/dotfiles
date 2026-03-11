@@ -1,3 +1,8 @@
+# Use same aliases as bash
+[[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
+# Reload should refresh zsh config, not bash
+alias reload="source ~/.zshrc"
+
 # Create a new virtual environment
 venv() {
     local force="$1"
