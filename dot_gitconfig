@@ -1,0 +1,26 @@
+# User identity
+[user]
+    name = David Winfield
+    email = david.winfield2000@gmail.com
+
+# Editor for Git commands (commit, rebase, etc.)
+[core]
+    editor = nvim
+    autocrlf = input
+    defaultBranch = main
+
+# Pull behavior
+[pull]
+    rebase = true
+
+# Store credentials to avoid repeated prompts
+[credential]
+    helper = store
+
+# Aliases for faster commands
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+
