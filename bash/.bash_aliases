@@ -23,4 +23,3 @@ alias py="python3"
 alias c="clear"
 alias h="history"
 alias reload="source ~/.bashrc"
-

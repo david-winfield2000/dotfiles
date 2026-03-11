@@ -120,4 +120,3 @@ fi
 export PATH="/opt/nvim/bin:$PATH"
 
 fastfetch
-

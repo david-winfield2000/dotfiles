@@ -38,4 +38,3 @@ revenv() {
 }
 
 fastfetch
-
