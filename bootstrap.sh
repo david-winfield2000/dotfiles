@@ -29,6 +29,13 @@ copy_dir() {
 }
 
 echo "Dotfiles directory: $DOTFILES_DIR"
+
+# Ensure submodules are initialized (e.g. nvim config)
+if [ -d "$DOTFILES_DIR/.git" ]; then
+  echo "Initializing git submodules..."
+  git -C "$DOTFILES_DIR" submodule update --init --recursive
+fi
+
 mkdir -p "$HOME/.config"
 
 # Bash
