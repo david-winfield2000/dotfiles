@@ -54,4 +54,7 @@ copy_dir "$DOTFILES_DIR/ghostty" "$HOME/.config/ghostty"
 # Git
 copy_file "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
 
+# Tmux
+copy_file "$DOTFILES_DIR/.tmux.config" "$HOME/.tmux.config"
+
 echo "Done."
