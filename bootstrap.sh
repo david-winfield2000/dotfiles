@@ -30,12 +30,6 @@ copy_dir() {
 
 echo "Dotfiles directory: $DOTFILES_DIR"
 
-# Ensure submodules are initialized (e.g. nvim config)
-if [ -d "$DOTFILES_DIR/.git" ]; then
-  echo "Initializing git submodules..."
-  git -C "$DOTFILES_DIR" submodule update --init --recursive
-fi
-
 mkdir -p "$HOME/.config"
 
 # Bash
@@ -44,9 +38,6 @@ copy_file "$DOTFILES_DIR/bash/.bash_aliases" "$HOME/.bash_aliases"
 
 # Zsh
 copy_file "$DOTFILES_DIR/zsh/.zshrc" "$HOME/.zshrc"
-
-# Neovim
-copy_dir "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
 
 # Ghostty
 copy_dir "$DOTFILES_DIR/ghostty" "$HOME/.config/ghostty"
