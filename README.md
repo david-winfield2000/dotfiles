@@ -1,4 +1,3 @@
-# README
+# What this is
 
-cloning:
-`git clone --recurse-submodules https://github.com/david-winfield2000/.dotfiles.git`
+These are my personal configs that I use across the different computers I use. I wanted to simplify the process of sharing configs across computers. This was the most straightforward way of doing it!
