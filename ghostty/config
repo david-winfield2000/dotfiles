@@ -1,1 +1,3 @@
 theme = Aura
+confirm-close-surface = false
+
