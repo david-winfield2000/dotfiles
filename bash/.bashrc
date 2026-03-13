@@ -118,5 +118,3 @@ fi
 
 # nvim setup
 export PATH="/opt/nvim/bin:$PATH"
-
-fastfetch
