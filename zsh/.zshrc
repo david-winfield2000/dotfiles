@@ -41,5 +41,3 @@ revenv() {
 
     venv force
 }
-
-fastfetch
