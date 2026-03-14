@@ -17,7 +17,6 @@ alias gl="git log --oneline --graph --decorate"
 
 # Python
 alias python="python3"
-alias py="python3"
 
 # Misc
 alias c="clear"

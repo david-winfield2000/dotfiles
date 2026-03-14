@@ -12,9 +12,3 @@
 
 [credential]
     helper = store
-
-[alias]
-    st = status
-    ci = commit
-    co = checkout
-    br = branch
