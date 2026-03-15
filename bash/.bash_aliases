@@ -1,12 +1,9 @@
 # Navigation
 alias ..="cd .."
-alias ...="cd ../.."
 alias ~="cd ~"
 
 # Listing
-alias ll="ls -alF"
 alias la="ls -A"
-alias l="ls -CF"
 
 # Git shortcuts
 alias gs="git status"
@@ -22,3 +19,4 @@ alias python="python3"
 alias c="clear"
 alias h="history"
 alias reload="source ~/.bashrc"
+
