@@ -122,3 +122,14 @@ export PATH="/opt/nvim/bin:$PATH"
 # nvm setup
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# auto venv
+venv() {
+    if [ ! -d "venv" ]; then
+        python -m venv venv
+    fi
+    source venv/bin/activate
+    if [ -f "requirements.txt" ]; then
+        pip install -r requirements.txt
+    fi
+}
