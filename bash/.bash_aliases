@@ -11,6 +11,7 @@ alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
 alias gl="git log --oneline --graph --decorate"
+alias lg="lazygit"
 
 # Python
 alias python="python3"
