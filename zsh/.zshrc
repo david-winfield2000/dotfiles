@@ -6,10 +6,10 @@ alias reload="source ~/.zshrc"
 venv() {
     if [ ! -d "venv" ]; then
         python -m venv venv
-    fi
-    source venv/bin/activate
-    if [ -f "requirements.txt" ]; then
-        pip install -r requirements.txt
+        source venv/bin/activate
+        [ -f "requirements.txt" ] && pip install -r requirements.txt
+    else
+        source venv/bin/activate
     fi
 }
 
