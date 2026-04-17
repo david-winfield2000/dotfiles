@@ -1,3 +1,9 @@
 # What this is
 
-These are my personal configs that I use across the different computers I use. I wanted to simplify the process of sharing configs across computers. This was the most straightforward way of doing it!
+This is a collection of various configs that I have set up.
+
+I use these configs on several different computers and would get frustrated whenever I had to wipe a computer and would have to redo all my configs by hand.
+
+Now that problem is no more!
+
+I simply clone this repo into my computer, and run `bootstrap.sh` to symlink these config files to my system.
