@@ -5,12 +5,7 @@ alias ~="cd ~"
 # Listing
 alias la="ls -A"
 
-# Git shortcuts
-alias gs="git status"
-alias ga="git add"
-alias gc="git commit"
-alias gp="git push"
-alias gl="git log --oneline --graph --decorate"
+# Git
 alias lg="lazygit"
 
 # Python
@@ -21,3 +16,8 @@ alias c="clear"
 alias h="history"
 alias reload="source ~/.bashrc"
 
+# Tmux
+alias t="tmux"
+alias ta="tmux a"
+alias tn="tmux new -s"
+alias tk="tmux kill-session -t"
